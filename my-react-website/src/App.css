@@ -1,0 +1,15 @@
+#HeadFoot #Header #MainAbout {
+  max-width: 960px;
+  text-align: center;
+  background-color: bisque;
+}
+
+header {
+  background-color: skyblue;
+  height: 200px;
+}
+
+main {
+  background-color: beige;
+  height: 200px;
+}
