@@ -4,7 +4,7 @@
 
   <label for="password">Lösenord:</label>
   <input type="password" id="password" name="password" required>
-
+*/
   <input type="submit" value="Logga in">
 </form>
-*/
+
