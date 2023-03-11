@@ -5,7 +5,7 @@ import BookingForm from "./BookingForm";
 function Booking() {
   return (
     <div>
-      <h1>Book a Table</h1>
+      <h1 id="book">Book a Table</h1>
       <BookingForm />
     </div>
   );

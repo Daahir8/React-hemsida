@@ -1,15 +1,37 @@
-#HeadFoot #Header #MainAbout {
-  max-width: 960px;
-  text-align: center;
-  background-color: bisque;
+.container {
+  width: 500px;
+  margin: 30px auto;
 }
 
-header {
-  background-color: skyblue;
-  height: 200px;
+.booking-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+  padding: 20px;
 }
 
-main {
-  background-color: beige;
-  height: 200px;
+.book .booking-form label {
+  display: block;
+  margin-bottom: 10px;
 }
+
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form input[type="tel"],
+.booking-form input[type="date"],
+.booking-form input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+.book {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+/* Path: my-react-website/src/App.css */
